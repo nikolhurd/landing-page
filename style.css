@@ -19,12 +19,12 @@ body {
 header {
   background-color: #1f2937;
   color: #e5e7eb;
+  padding: 30px;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  /* padding: 0 30px; */
 }
 
 header .container {
@@ -39,7 +39,14 @@ header .container {
   margin-right: auto;
   font-weight: 800;
 }
-
+nav ul {
+  display: flex;
+}
 nav a {
   text-decoration: none;
+  color: #f9faf8;
+}
+
+nav li {
+  padding: 0 10px;
 }
