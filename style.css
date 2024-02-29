@@ -88,3 +88,31 @@ nav li {
   font-weight: bolder;
   margin-top: 1rem;
 }
+
+/* INFO */
+.info {
+  background-color: #f9faf8;
+  text-align: center;
+}
+
+.info .container {
+  padding: 3rem;
+}
+.info .cards-wrapper {
+  display: flex;
+  padding: 3rem 0;
+  justify-content: space-evenly;
+}
+.info h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.card img {
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+
+/*  QUOTE  */
