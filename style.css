@@ -116,3 +116,30 @@ nav li {
 }
 
 /*  QUOTE  */
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .text-wrapper {
+  padding: 8rem 10rem;
+}
+
+blockquote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+blockquote footer {
+  font-weight: bolder;
+  text-align: end;
+  margin-right: 4rem;
+  font-size: 20px;
+}
