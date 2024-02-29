@@ -93,6 +93,11 @@ nav li {
   margin-top: 1rem;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background-color: #1f498d;
+}
+
 /* INFO */
 .info {
   background-color: #f9faf8;
@@ -172,4 +177,15 @@ blockquote footer {
 .btn-outline {
   border-style: solid;
   border-color: white;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #1f2937;
+  padding: 2rem 0;
+}
+footer p {
+  text-align: center;
+  color: #f9faf8;
 }
