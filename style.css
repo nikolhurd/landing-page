@@ -39,14 +39,52 @@ header .container {
   margin-right: auto;
   font-weight: 800;
 }
+
 nav ul {
   display: flex;
 }
+
 nav a {
   text-decoration: none;
   color: #f9faf8;
 }
 
+nav a:hover {
+  color: #757575;
+}
+
 nav li {
   padding: 0 10px;
+}
+
+/* HERO */
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero .text-wrapper {
+  padding-right: 8rem;
+}
+
+.hero .btn {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 8px 30px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bolder;
+  margin-top: 1rem;
 }
