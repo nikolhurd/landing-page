@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* CSS - reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+/* HEADER */
+header {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin-right: auto;
+  font-weight: 800;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+nav a:hover {
+  color: #757575;
+}
+
+nav li {
+  padding: 0 10px;
+}
+
+/* HERO */
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero .text-wrapper {
+  padding-right: 8rem;
+}
+
+.hero p {
+  color: #e5e7eb;
+}
+
+.btn {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 8px 30px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #1f498d;
+}
+
+/* INFO */
+.info {
+  background-color: #f9faf8;
+  text-align: center;
+}
+
+.info .container {
+  padding: 3rem;
+}
+.info .cards-wrapper {
+  display: flex;
+  padding: 3rem 0;
+  justify-content: space-evenly;
+}
+.info h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.card img {
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+
+/*  QUOTE  */
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .text-wrapper {
+  padding: 8rem 10rem;
+}
+
+blockquote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+blockquote footer {
+  font-weight: bolder;
+  text-align: end;
+  margin-right: 4rem;
+  font-size: 20px;
+}
+
+/* CTA */
+.cta {
+  background-color: #f9faf8;
+}
+.cta .container {
+  padding: 7rem 0;
+}
+.cta-wrapper {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 12px;
+  padding: 3rem 0;
+}
+
+.cta .text-wrapper {
+  margin-right: 2rem;
+}
+
+.btn-outline {
+  border-style: solid;
+  border-color: white;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #1f2937;
+  padding: 2rem 0;
+}
+footer p {
+  text-align: center;
+  color: #f9faf8;
+}
